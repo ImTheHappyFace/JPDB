@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="en">
+
+<head>
+    <title>Add players</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="./index.js"> </script>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Basic Player information</h2>
+        <form id="empForm" method="post">
+            <div class="form-group">
+                <span><label for="playerId">Player Number</label> <label id="playerIdMsg">
+                    </label></span>
+                <input type="number" class="form-control" name="playerId" id="playerId" placeholder="Enter player number"
+                    required>
+            </div>
+            <div class="form-group">
+                <label for="playerName">Full Name</label>
+                <input type="text" class="form-control" id="playerName" placeholder="Enter Player Name" name="playerName">
+            </div>
+            <div class="form-group">
+                <label for="playerEmail">Email:</label>
+                <input type="email" class="form-control" id="playerEmail" placeholder="Enter Player Email"
+                    name="playerEmail">
+            </div>
+            <div class="form-group">
+                <p>Position</p>
+                <select id="playerPos" name="playerPos" class="form-control"
+              required>
+              <option disabled selected value>Select any one</option>
+              <option value="Midfiled">Midfiled</option>
+              <option value="Striker">Striker</option>
+              <option value="Defence">Defence</option>
+              <option value="GoalKeeper">GoalKeeper</option>
+              </select>
+              </div>
+
+            <div class="form-group">
+                <label for="State">State:</label>
+                <input type="text" class="form-control" id="pfoot" placeholder="Enter Your state"
+                    name="player State">
+            </div>
+
+            <input type="button" class="btn btn-primary" id="empSave" value="Save" onclick="saveEmployee();">
+        </form>
+    </div>
+
+
+</body>
+
+
+
+</html>
