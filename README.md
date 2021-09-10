@@ -30,5 +30,5 @@ JsonPowerDB is a Database Server with Developer friendly REST API services. It's
 - Live HTML templates / themes.
 - Any software application that needs backend database.
 
-##Screenshots
+**Screenshots**
 ![Screenshot 2021-09-10 at 4 07 11 PM](https://user-images.githubusercontent.com/52359250/132849732-e6adb283-cf8d-4e41-8292-a10e0b381f2a.png)
